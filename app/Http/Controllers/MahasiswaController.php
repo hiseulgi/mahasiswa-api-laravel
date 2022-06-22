@@ -73,8 +73,8 @@ class MahasiswaController extends Controller {
 
             return response()->json([
                 'success' => true,
-                'message' => 'Data mahasiswa berhasil dibuat!',
-                'data'    => $Mahasiswa
+                'message' => 'Data mahasiswa berhasil dibuat!'
+                // 'data'    => $Mahasiswa
             ], 201);
         }
 
@@ -123,8 +123,8 @@ class MahasiswaController extends Controller {
 
             return response()->json([
                 'success' => true,
-                'message' => 'Data mahasiswa berhasil diubah!',
-                'data'    => $mahasiswa
+                'message' => 'Data mahasiswa berhasil diubah!'
+                // 'data'    => $mahasiswa
             ], 200);
         }
 
