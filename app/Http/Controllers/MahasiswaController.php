@@ -34,7 +34,7 @@ class MahasiswaController extends Controller {
         return response()->json([
             'success' => true,
             'message' => 'Detail data mahasiswa!',
-            'data'    => $mahasiswa
+            'data'    => [$mahasiswa]
         ], 200);
     }
 
